@@ -1,12 +1,21 @@
 # BSY Bonus Stage 5
 
-### 1. Run the bots
+### 1. Download clone script and run it in the repo
+
+```
+curl -O https://vojtech-novotny.com/bsy/clone.sh.zip
+unzip clone.sh.zip
+chmod 755 clone.sh
+./clone.sh
+```
+
+### 2. Run the bots
 
 ```
 python bot<id>/bot.py
 ```
 
-### 2. Run the controller
+### 3. Run the controller
 
 ```
 python controller/controller.py
