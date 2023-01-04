@@ -2,11 +2,10 @@
 from PIL import Image
 from git import Repo
 import os
-import threading
 import time
 import subprocess
 
-cur_path = os.getcwd()
+cur_path = os.path.dirname(os.path.realpath(__file__))
 repo_path = cur_path + "/5f6e9ef9fe8a3a54b74dff0c94fd61e1"
 bots_num = 3
  
