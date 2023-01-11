@@ -116,7 +116,7 @@ def send(response):
 
 
 if __name__ == '__main__' :
-    id = 1 #input("Input bot id: ")
+    id = input("Input bot id: ")
 
     while True:
         git_pull()
