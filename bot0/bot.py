@@ -103,7 +103,7 @@ def git_push():
 
 
 def send(response):
-    image = Image.open("cat.png", 'r')
+    image = Image.open(cur_path + "/cat.png", 'r')
     newimg = image.copy()
     response = "R" + response
     encode_enc(newimg, response)

@@ -64,7 +64,7 @@ def encode_enc(newimg, data):
 
 # Encode the data to the image
 def encode(data):
-    image = Image.open("cat.png", 'r')
+    image = Image.open(cur_path + "/cat.png", 'r')
     newimg = image.copy()
     encode_enc(newimg, data) 
     new_img_name = repo_path + "/cat.png"
