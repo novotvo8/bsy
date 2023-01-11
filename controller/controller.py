@@ -185,7 +185,7 @@ def showActive():
 
 
 if __name__ == '__main__' :
-
+    bots_num = int(input("Input number of bots: "))
     bot = 0
 
     print("Controller commands:")
