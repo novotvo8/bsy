@@ -12,13 +12,15 @@ chmod 755 clone.sh
 ### 2. Run the bots
 
 ```
-python bot<id>/bot.py
+cd bot<id>
+python bot.py
 ```
 
 ### 3. Run the controller
 
 ```
-python controller/controller.py
+cd controller
+python controller.py
 ```
 
 ### Controller commands:
